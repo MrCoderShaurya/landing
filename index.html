@@ -2,11 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Animated Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated GSAP Landing Page</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <nav class="navbar">
+    <h2>DreamSpace</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
   <section class="hero">
     <div class="content">
       <h1>Welcome to DreamSpace</h1>
@@ -14,8 +27,13 @@
       <a href="#" class="cta">Get Started</a>
     </div>
     <div class="image-container">
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/Fkdmrc7T/download.png" alt="download" border="0"></a>
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/03/53/planet-1867884_1280.png" alt="Planet" />
     </div>
+  </section>
+
+  <section class="more">
+    <h2 class="reveal">Scroll to Discover</h2>
+    <p class="reveal">We build stunning experiences for the next generation of dreamers and explorers. Let your ideas fly high.</p>
   </section>
 </body>
 </html>
