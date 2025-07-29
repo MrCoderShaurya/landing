@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlowSpark - Automate with AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Flow<span>Spark</span></div>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a class="btn" href="#">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="headline">Automate your workflow<br>Accelerate your growth</h1>
+    <p class="subheadline">Your AI-powered co-pilot for smarter productivity</p>
+    <a href="#" class="btn hero-btn">Start Free Trial</a>
+  </section>
+
+  <section class="ai-box">
+    <h2>🤖 Ask FlowSpark AI (Cohere)</h2>
+    <textarea id="aiPrompt" placeholder="Ask me anything about automation, productivity, AI..."></textarea>
+    <button onclick="askCohere()">Submit</button>
+    <pre id="aiResponse">Response will appear here...</pre>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 FlowSpark. Built with HTML, CSS, JS, and AI 🧠</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

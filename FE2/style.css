@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #101820;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #00ffc6;
+}
+.logo span {
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: 600;
+}
+
+.btn {
+  background: #00ffc6;
+  color: #121212;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background-color: #00d0a5;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  animation: fadeUp 1.5s ease-out;
+}
+.headline {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.subheadline {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+.hero-btn {
+  background: #ff416c;
+  color: white;
+}
+.hero-btn:hover {
+  background: #e82f5e;
+}
+
+/* Sections */
+.ai-box, .weather-box {
+  background: #1a2533;
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(0, 255, 198, 0.1);
+  text-align: center;
+}
+
+textarea, input {
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  background: #00ffc6;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: #00d8aa;
+}
+
+pre, #weatherResult {
+  margin-top: 1rem;
+  background: #121820;
+  padding: 1rem;
+  font-size: 0.95rem;
+  border-radius: 10px;
+  color: #ddd;
+  white-space: pre-wrap;
+}
+
+/* Footer */
+.footer {
+  background: #101820;
+  padding: 2rem;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
