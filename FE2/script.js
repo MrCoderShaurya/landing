@@ -5,7 +5,7 @@ async function askCohere() {
   const responseBox = document.getElementById("aiResponse");
   responseBox.textContent = "Generating response...";
 
-  const apiKey = "7Hd3Jez1t0ihz2dhQkZn5iwYuicba73vQhsky0Hy"; // ← Replace this
+  const apiKey = "*****"; // ← Replace this
 
   try {
     const res = await fetch("https://api.cohere.ai/v1/generate", {
