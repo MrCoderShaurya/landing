@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDC - Your Companion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background-color: white;
+      color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 1px 8%;
+      color: white !important;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 900;
+    }
+
+    .logo span {
+      color: white;
+      background-color: #222;
+      padding: 2px 6px;
+      margin-left: 4px;
+      border-radius: 4px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .btn {
+      background-color: white;
+      color: #f7633f;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 10%;
+      background: linear-gradient(to right, #f7633f, #ffa386);
+      color: white;
+    }
+
+    .title-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .main-title {
+      font-size: 2.8rem;
+      font-weight: 900;
+      margin-bottom: 0;
+    }
+    
+    .tagline {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-top: 0;
+      display: inline-block;
+    }
+
+    .features {
+      text-align: center;
+      padding: 60px 10%;
+    }
+
+    .features h2 {
+      font-size: 2rem;
+      color: #f7633f;
+      margin-bottom: 20px;
+    }
+
+    .features ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .features ul li {
+      background-color: #f7f7f7;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      background-color: #f7633f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+<header class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="PDC Logo" class="logo-img" />
+  </div>
+  <nav class="nav-menu">
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Discussion</a></li>
+      <li><a class="btn" href="#">Dive in</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <section class="hero">
+    <div class="title-container">
+      <h1 class="main-title">Personal Development Club</h1>
+      <p class="tagline">Character | Competence | Culture</p>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Join Us?</h2>
+    <ul>
+      <li>Engaging Workshops</li>
+      <li>Networking Opportunities</li>
+      <li>Access to Resources</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 PDC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
